@@ -1,0 +1,97 @@
+[*]
+[*] GTKWave Analyzer v3.3.107 (w)1999-2020 BSI
+[*] Fri Jan 12 14:11:07 2024
+[*]
+[dumpfile] "/Users/wangheng/Documents/Study/IC/I2C/tb/t_i2c_master.vcd"
+[dumpfile_mtime] "Wed Jan 10 12:28:11 2024"
+[dumpfile_size] 2205049
+[savefile] "/Users/wangheng/Documents/Study/IC/I2C/tb/t_i2c_master.gtkw"
+[timestart] 0
+[size] 1440 847
+[pos] -1 -1
+*-28.578667 1115655000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] t_i2c_master.
+[sst_width] 193
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 241
+@28
+t_i2c_master.clk
+t_i2c_master.host_start
+@22
+t_i2c_master.h_addr[7:0]
+t_i2c_master.h_cmd[3:0]
+t_i2c_master.h_data[31:0]
+t_i2c_master.pc[3:0]
+@28
+t_i2c_master.h_sel_i2c_m
+t_i2c_master.h_sel_model_m
+t_i2c_master.i2c_m_busy
+t_i2c_master.model_m_busy
+@29
+t_i2c_master.i2c_m_error
+@28
+t_i2c_master.i2c_bus_sda_pull
+t_i2c_master.i2c_bus_scl_pull
+@200
+-
+@28
+t_i2c_master.i2c_master_U1.db_sda_i
+t_i2c_master.i2c_master_U1.db_scl_i
+t_i2c_master.i2c_master_U1.db_sda_change
+@22
+t_i2c_master.i2c_master_U1.addr_reg[6:0]
+@28
+t_i2c_master.i2c_master_U1.cmd_read
+t_i2c_master.i2c_master_U1.cmd_write
+@22
+t_i2c_master.i2c_master_U1.tx_data_reg[31:0]
+t_i2c_master.i2c_master_U1.rx_data_reg[31:0]
+t_i2c_master.i2c_master_U1.state_reg[3:0]
+t_i2c_master.i2c_master_U1.timer_cnt[7:0]
+@28
+t_i2c_master.i2c_master_U1.timer_ready
+t_i2c_master.i2c_master_U1.cyc_state_reg[1:0]
+t_i2c_master.i2c_master_U1.cycle_end
+t_i2c_master.i2c_master_U1.byte_cnt[1:0]
+t_i2c_master.i2c_master_U1.bit_cnt[2:0]
+t_i2c_master.i2c_master_U1.sda_o
+t_i2c_master.i2c_master_U1.scl_o
+@200
+-
+@28
+t_i2c_master.model_i2c_master_U1.db_sda_i
+t_i2c_master.model_i2c_master_U1.db_scl_i
+t_i2c_master.model_i2c_master_U1.ready_to_start
+t_i2c_master.model_i2c_master_U1.start_enough
+t_i2c_master.model_i2c_master_U1.stop_enough
+@22
+t_i2c_master.model_i2c_master_U1.state[3:0]
+t_i2c_master.model_i2c_master_U1.bit_cnt[3:0]
+@28
+t_i2c_master.model_i2c_master_U1.byte_cnt[1:0]
+@22
+t_i2c_master.model_i2c_master_U1.addr_reg[6:0]
+t_i2c_master.model_i2c_master_U1.cmd_reg[3:0]
+@28
+t_i2c_master.model_i2c_master_U1.cmd_write
+t_i2c_master.model_i2c_master_U1.cmd_read
+t_i2c_master.model_i2c_master_U1.sda_unmatch
+t_i2c_master.model_i2c_master_U1.sda_out
+t_i2c_master.model_i2c_master_U1.sda_o_reg
+t_i2c_master.model_i2c_master_U1.scl_o_reg
+@22
+t_i2c_master.model_i2c_master_U1.tx_data_reg[31:0]
+t_i2c_master.model_i2c_master_U1.rx_data_reg[31:0]
+@200
+-
+@28
+t_i2c_master.model_i2c_slave_U1.sda_o_reg
+t_i2c_master.model_i2c_slave_U1.scl_o_reg
+@22
+t_i2c_master.model_i2c_slave_U1.state[3:0]
+t_i2c_master.model_i2c_slave_U1.addr_reg[7:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

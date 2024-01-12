@@ -1,0 +1,6 @@
+5A3401a5b4c3d2    // write 2 bytes
+5A3203e8d7290b    // no device ack
+9C340600000000    // read 3 bytes
+5A420100006688    // write 2 bytes, the second no-ack
+9C420500000000    // read 2 bytes, the second no-ack
+00000000000000
